@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Irish+Grover&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+body {
+    background-color: gray;
+    margin-top: 0px;
+}
+
+main {
+    background-color: white;
+    max-width: 900px;
+    margin-inline: auto;
+}
+
+header {
+    background-size: contain;
+
+    display: grid;
+    place-items: center;
+}
+
+.header_h1 {
+    font-family: "Irish Grover", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+
+    color: white;
+    background-color: rgba(9, 9, 9, 0.5);
+    padding-inline: 30px;
+    border-radius: 20px;
+}
+
+.vissza_div {
+    position: absolute;
+    background-color: rgba(9, 9, 9, 0.5);
+    padding: 10px;
+    margin: 10px;
+    border-radius: 12px;
+    display: grid;
+    grid-template-areas: "a t";
+    place-items: center;
+    transition: transform 0.3s ease;
+}
+
+.vissza_p {
+    color: white;
+    font-family: "Outfit", sans-serif;
+    text-transform: uppercase;
+    grid-area: "t";
+    
+    margin: 0px;
+    
+}
+
+.vissza_div:hover {
+    transform: scale(1.05);
+}
+
+.vissza_div img {
+    width: 25px;
+    margin-right: 5px;
+    grid: "a";
+}
