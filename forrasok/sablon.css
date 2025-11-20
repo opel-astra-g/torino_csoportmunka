@@ -3,7 +3,7 @@
 
 body {
     background-color: gray;
-    margin-top: 0px;
+    margin: 0px;
 }
 
 main {
@@ -44,13 +44,21 @@ header {
 }
 
 .vissza_p {
+    display: block;
     color: white;
     font-family: "Outfit", sans-serif;
     text-transform: uppercase;
     grid-area: "t";
-    
     margin: 0px;
-    
+}
+
+.vissza_p_kicsi {
+    display: none;
+    color: white;
+    font-family: "Outfit", sans-serif;
+    text-transform: uppercase;
+    grid-area: "t";
+    margin: 0px;
 }
 
 .vissza_div:hover {
@@ -61,4 +69,13 @@ header {
     width: 25px;
     margin-right: 5px;
     grid: "a";
+}
+
+@media screen and (max-width:600px) {
+    .vissza_p {
+        display: none;
+    }
+    .vissza_p_kicsi {
+        display: block;
+    }
 }
