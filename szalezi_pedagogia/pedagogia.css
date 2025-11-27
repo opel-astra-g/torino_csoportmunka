@@ -1,0 +1,42 @@
+header {
+    background-image: url(kepek/7U5A1199.jpg);
+    aspect-ratio: 2400/1600;
+}
+
+/*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr  ;
+    grid-template-areas: 
+        "h h"
+        "sec img"
+        "fot fot";
+    gap: 20px;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+footer{
+    text-align: center;
+}
+div {
+    padding: 5px;
+}
+article img { /*ha képet formáztok így utaljatok rá mert a sima img elrontja a vissza gomb nyílját*/
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+}
+/*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
+ul{
+    margin-left: 20px;
+}
+
+@media screen and (max-width:600px) {
+    section{
+        grid-template-columns: 1fr;
+
+        
+    }
+}
