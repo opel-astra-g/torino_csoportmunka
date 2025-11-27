@@ -1,54 +1,53 @@
 header {
-    background-image: url(kepek/kep2.jpg);
-    aspect-ratio: 1131/654;
+  background-image: url(kepek/kep2.jpg);
+  aspect-ratio: 1131/654;
 }
 
 h1 {
-    margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 
 div {
-    padding: 5px;
+  padding: 5px;
 }
-article img { 
-    width: 100%;
-    padding: 15px;
-    border-radius: 20px;
+article img {
+  width: 100%;
+  padding: 15px;
+  border-radius: 20px;
+}
+/* kikommenteltem mert a footer tag amit beraktam szükségtellené teszi -csaba
+article {
+  margin-bottom: 10px;
+  border: 2px solid #fff;
+}
+*/
+p {
+  padding-bottom: 30px;
+}
+#Történelme {
+  display: grid;
+  grid-template-columns: 3fr 7fr;
+  gap: 20px;
 }
 
-article{
-    margin-bottom: 10px;
-    border: 2px solid #fff;
-}
-p{
-    padding-bottom: 30px;
-}
-#Történelme{
-    display: grid;
-    grid-template-columns: 3fr 7fr;
-    gap: 20px;
-}
-
-#Napjainkban{
-    display: grid;
-    grid-template-columns: 7fr 3fr;
-    gap: 20px;
+#Napjainkban {
+  display: grid;
+  grid-template-columns: 7fr 3fr;
+  gap: 20px;
 }
 
 @media screen and (max-width: 600px) {
-    #Történelme{
-        display: grid;
-        grid-template-columns: 7fr;
-        gap: 20px;
-        text-align: center;
-    }
+  #Történelme {
+    display: grid;
+    grid-template-columns: 7fr;
+    gap: 20px;
+    text-align: center;
+  }
 
-    #Napjainkban{
-        display: grid;
-        grid-template-columns: 7fr;
-        gap: 20px;
-        text-align: center;
-    }
-} 
-    
-
+  #Napjainkban {
+    display: grid;
+    grid-template-columns: 7fr;
+    gap: 20px;
+    text-align: center;
+  }
+}
