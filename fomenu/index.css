@@ -4,23 +4,41 @@ header {
 }
 
 /*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
-section {
-  display: grid;
-  grid-template-columns: 3fr 7fr;
-  gap: 20px;
-}
 
 h1 {
   margin-bottom: 20px;
 }
 
-div {
-  padding: 5px;
+.fomenu_szoveg {
+  padding: 10px;
 }
+
+.fomenu_oldalak div {
+  padding: 15px;
+}
+
+.fomenu_oldalak {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+h3 {
+  text-align: center;
+}
+
+.teszt {
+  margin: 20px;
+}
+
 article img {
   /*ha képet formáztok így utaljatok rá mert a sima img elrontja a vissza gomb nyílját*/
   width: 100%;
-  padding: 15px;
   border-radius: 20px;
+}
+
+article p {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-size: 20px;
 }
 /*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
