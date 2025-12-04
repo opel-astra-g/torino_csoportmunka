@@ -143,7 +143,7 @@ footer p {
   }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 652px) {
   .header_h1 {
     font-size: 50px;
   }

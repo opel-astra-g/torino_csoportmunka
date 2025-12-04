@@ -11,10 +11,12 @@ h1 {
 
 .fomenu_szoveg {
   padding: 10px;
+  text-align: justify;
+
 }
 
 .fomenu_oldalak div {
-  border: 2px solid red;
+  border: 2px solid #949494;
   margin: 15px;
 }
 
@@ -23,23 +25,34 @@ h1 {
   grid-template-columns: repeat(4, 1fr);
 }
 
-h3 {
-  text-align: center;
+.fomenu_oldalak div p {
+  font-size: 10px;
+  margin-left: 10px;
 }
 
-.teszt {
-  margin: 20px;
+h3 {
+  text-align: center;
 }
 
 article img {
   /*ha képet formáztok így utaljatok rá mert a sima img elrontja a vissza gomb nyílját*/
   width: 100%;
-  border-radius: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
 }
 
 article p {
   font-family: "Outfit", sans-serif;
   font-style: normal;
   font-size: 20px;
+}
+
+h2 {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 /*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
