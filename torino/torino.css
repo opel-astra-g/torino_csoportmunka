@@ -24,3 +24,33 @@ article img {
   border-radius: 20px;
 }
 /*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
+
+
+
+@media screen and (max-width: 600px) {
+  .elso {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .tobbiResz {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
+
+@media screen and (max-width: 655px) {
+  .elso {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+
+  .tobbiResz {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 20px;
+  }
+}
