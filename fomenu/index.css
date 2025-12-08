@@ -27,7 +27,7 @@ h1 {
 
 .fomenu_oldalak div p {
   font-size: 10px;
-  margin-left: 10px;
+  margin-left: 15px;
 }
 
 h3 {
@@ -54,5 +54,22 @@ h2 {
   font-weight: 400;
   margin-top: 5px;
   margin-bottom: 5px;
+  margin-left: 5px;
 }
 /*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
+
+@media screen and (max-width:700px) {
+  .fomenu_szoveg {
+    text-align: left;
+  }
+  .fomenu_oldalak {
+    grid-template-columns: repeat(2, 1fr)
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .fomenu_oldalak div p {
+  font-size: 15px;
+  margin-left: 15px;
+}
+}
