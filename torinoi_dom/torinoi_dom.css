@@ -39,6 +39,27 @@ article img {
   width: 100%;
   border-radius: 20px;
 }
+td {
+  background-color: rgb(54, 54, 54);
+}
+
+th {
+  background-color: rgb(64, 64, 64);
+  
+}
+
+td, th {
+  border: 2px solid rgb(91, 91, 91);
+}
+
+table {
+  color: white;
+  border-collapse: collapse;
+  margin-top: 20px;
+  border-radius: 10px;
+  font-size: 16px;
+}
+
 /*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
 @media screen and (max-width:600px) {
   .responsive {

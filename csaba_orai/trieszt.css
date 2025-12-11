@@ -1,0 +1,43 @@
+header {
+  background-image: url(kepek/kep2.jpg);
+  aspect-ratio: 1131/654;
+}
+
+h1 {
+  margin-bottom: 20px;
+}
+
+.szekcio {
+  display: grid;
+  grid-template-columns: 1fr 3fr;
+  gap: 20px;
+}
+
+aside {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
+}
+
+img {
+  width: 100%;
+}
+
+.nagy_kontener {
+  grid-template-columns: 1fr 1fr;
+  display: grid;
+  gap: 10px;
+  padding: 20px;
+}
+
+.nagy_kontener .elem {
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 20px;
+}
+
+.nagy_kontener .elem div {
+  border-radius: 10px;
+  height: 100%;
+  background-color: white;
+}
