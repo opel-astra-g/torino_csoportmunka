@@ -21,6 +21,11 @@ div {
   padding: 5px;
 }
 
+article {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+}
+
 article img {
   width: 100%;
   padding: 15px;
@@ -29,6 +34,10 @@ article img {
 
 ul {
   margin-left: 20px;
+}
+
+.sec, .img {
+  padding: 20px;
 }
 
 @media screen and (max-width: 600px) {

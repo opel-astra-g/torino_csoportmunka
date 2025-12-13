@@ -50,14 +50,18 @@ th {
 
 td, th {
   border: 2px solid rgb(91, 91, 91);
+  padding: 5px;
 }
 
 table {
   color: white;
   border-collapse: collapse;
-  margin-top: 20px;
   border-radius: 10px;
   font-size: 16px;
+}
+aside {
+  border-radius: 10px;
+  margin-top: 20px;
 }
 
 /*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
