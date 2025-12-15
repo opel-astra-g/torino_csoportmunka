@@ -13,6 +13,11 @@ h1 {
   gap: 20px;
 }
 
+article {
+  font-family: "Outfit", sans-serif;
+  font-style: normal;
+}
+
 aside {
   padding: 20px;
   background-color: white;
