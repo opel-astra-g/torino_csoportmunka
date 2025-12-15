@@ -40,6 +40,11 @@ ul {
   padding: 20px;
 }
 
+.sec2, .img1 {
+  display: grid;
+  align-items: center;
+}
+
 @media screen and (max-width: 600px) {
   section {
     grid-template-columns: 1fr;

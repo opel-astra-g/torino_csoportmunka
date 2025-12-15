@@ -3,7 +3,7 @@ header {
   aspect-ratio: 1080/618;
 }
 
-/*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
+
 h1 {
   margin-bottom: 20px;
 }
@@ -35,7 +35,6 @@ ul {
 }
 
 article img {
-  /*ha képet formáztok így utaljatok rá mert a sima img elrontja a vissza gomb nyílját*/
   width: 100%;
   border-radius: 20px;
 }
@@ -64,7 +63,7 @@ aside {
   margin-top: 20px;
 }
 
-/*ezt kitörölhetitek, átírhatjátok de a színek, border-radius-ok, margin/padding-ok ilyenek legyenek*/
+
 @media screen and (max-width:600px) {
   .responsive {
     display: none;
