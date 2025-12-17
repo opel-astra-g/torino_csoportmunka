@@ -7,8 +7,10 @@ h1 {
   margin-bottom: 20px;
 }
 
-div {
-  padding: 20px;
+.szekcio {
+  display: grid;
+  grid-template-columns: 26fr 37fr 37fr;
+  gap: 20px;
 }
 
 article {
@@ -16,45 +18,51 @@ article {
   font-style: normal;
 }
 
-article img {
-  height: 80%;
-  max-width: 100%;
-  border-radius: 20px;
-  padding: 0px;
-}
-/* kikommenteltem mert a footer tag amit beraktam szükségtellené teszi -csaba
-article {
-  margin-bottom: 10px;
-  border: 2px solid #fff;
-}
-*/
-p {
-  padding-bottom: 30px;
-}
-#Történelme {
+aside {
+  padding: 20px;
+  background-color: white;
+  border-radius: 10px;
   display: grid;
-  grid-template-columns: 3fr 7fr;
-  gap: 20px;
+  align-items: center;
 }
 
-#Napjainkban {
-  display: grid;
-  grid-template-columns: 7fr 3fr;
-  gap: 20px;
+aside img {
+  border-radius: 10px;
 }
 
-@media screen and (max-width: 800px) {
-  #Történelme {
-    display: grid;
-    grid-template-columns: 7fr;
+.szekcio div img {
+  width: 100%;
+  padding-bottom: 0px;
+  border-radius: 10px;
+}
+
+ul {
+  list-style-position: inside;
+}
+
+li {
+  margin: 10px;
+}
+
+.szekcio div {
+  text-align: center;
+  padding: 20px;
+}
+
+img {
+  width: 100%;
+}
+
+@media screen and (max-width:650px) {
+  .szekcio {
+    grid-template-columns: 1fr;
+  }
+  aside {
     gap: 20px;
-    text-align: center;
   }
 
-  #Napjainkban {
-    display: grid;
-    grid-template-columns: 7fr;
-    gap: 20px;
-    text-align: center;
+  aside img {
+    width: 80%;
+    margin-inline: auto;
   }
 }

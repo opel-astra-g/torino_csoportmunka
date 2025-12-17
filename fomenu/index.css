@@ -23,6 +23,10 @@ h1 {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.fomenu_oldalak_kicsi {
+  display: none;
+}
+
 .fomenu_oldalak div p {
   font-size: 15px;
   margin-left: 15px;
@@ -32,16 +36,19 @@ h3 {
   text-align: center;
 }
 
-article a {
+.fomenu_oldalak a {
   text-decoration: none;
   color: black;
   margin: 15px;
 }
 
-article img {
-  width: 100%;
+.fomenu_oldalak img {
   border-top-left-radius: 8px;
   border-top-right-radius: 8px;
+}
+
+img {
+  width: 100%;
 }
 
 article p {
@@ -68,6 +75,40 @@ h2 {
   transform: scale(1.02);
 }
 
+.fomenu_oldalak_kicsi div {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  
+  align-items: center;
+  padding: 10px;
+  transition: transform 0.3s ease;
+}
+
+.fomenu_oldalak_kicsi div:hover {
+  transform: scale(1.02);
+}
+
+.fomenu_oldalak_kicsi img {
+  border-radius: 10px;
+}
+
+.fomenu_oldalak_kicsi {
+  grid-template-columns: 1fr;
+  gap: 20px;
+  background-color: #d9d9d9;
+}
+
+.fomenu_oldalak_kicsi div p {
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+.fomenu_oldalak_kicsi a {
+  text-decoration: none;
+  color: black;
+}
+
+
 
 @media screen and (max-width: 700px) {
   .fomenu_szoveg {
@@ -89,5 +130,15 @@ h2 {
   h2 {
     font-size: 20px;
     font-weight: 500;
+  }
+}
+
+
+@media screen and (max-width: 400px) {
+  .fomenu_oldalak {
+    display: none;
+  }
+  .fomenu_oldalak_kicsi {
+    display: grid;
   }
 }
